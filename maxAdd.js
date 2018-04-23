@@ -21,30 +21,16 @@ function maxAdd(str1, str2) {
 			newArr.push(bArr.pop());
 		}
 	}
-	console.log(newArr);
-//	newArr.forEach((item, index) => {
-//		item = Number(item) + cash;
-//		console.log(item);
-//		cash = 0;
-//		if (item > 10) {
-//			item = item % 10;
-//			cash = Math.floor(item / 10);
-//		}
-//	});
 	for (let i = 0; i < newArr.length; i++) {
-//		console.log(cash);
 		newArr[i] = Number(newArr[i]) + cash;
 		if (newArr[i] > 10) {
 			cash = Math.floor(newArr[i] / 10);
 			newArr[i] = newArr[i] % 10;
-			console.log(cash);
 		} else {
 			cash = 0;
 		}
 	}
-	console.log(newArr);
 	return newArr.reverse().join('');
 }
 
 let newArr = maxAdd('1111454545454', '891631831');
-console.log(newArr);
