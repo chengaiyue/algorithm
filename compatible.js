@@ -12,7 +12,7 @@ str[i](低版本ie不支持) || str.charAt(i)
 firstChild,lastChild,nextSibling,previousSibling ||
 firstElementChild,lastElementChild,nextElementSibling,previousElementSibling
 
-return false || event.preventDefault()
+return false || ev.preventDefault()
 
 ev.cancelBubble || ev.stopPropagation
 
