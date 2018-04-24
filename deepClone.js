@@ -1,3 +1,7 @@
+/**
+ * 深克隆
+ * @param {Object} obj
+ */
 function deepClone(obj) {
 	if (!(obj instanceof Object)) {
 		return obj;

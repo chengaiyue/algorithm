@@ -1,3 +1,8 @@
+/**
+ * 超过最大计算范围的数字相加
+ * @param {Object} str1
+ * @param {Object} str2
+ */
 function maxAdd(str1, str2) {
 	let aArr = str1.split('');
 	let bArr = str2.split('');

@@ -1,3 +1,7 @@
+/**
+ * 冒泡排序和快速排序  
+ * @param {Object} arr
+ */
 function bubbleSort(arr) {
 	let length = arr.length;
 	for (let i = 0; i < length; i++) {

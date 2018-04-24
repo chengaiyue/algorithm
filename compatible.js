@@ -1,3 +1,6 @@
+/**
+ * js相关兼容问题
+ */
 getComputedStyle(dom)[styleName]
 dom.currentStyle[styleName]
 
