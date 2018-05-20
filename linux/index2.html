@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		查询和自动挂载
+			mount 查询系统中已经挂载的设备
+			mount -a 依据配置文件/etc/fstab的内容，自动挂载
+		
+		挂载命令格式:
+			mount -t(文件系统) -o(特殊选项) 设备文件名 挂载点
+			
+		chomd 赋予执行权限
+		
+		./ 执行脚本  或写绝对路径
+		
+		挂载光盘
+			mount /dev/sr0(cdroom) /mnt/cdroom
+		卸载光盘
+			umount /mnt/cdroom(/dev/sr0)
+			
+		挂载U盘
+			fdisk -l 查看U盘设备名
+			mount -t vfat /dev/sdb1 /mnt/usb/
+			linux 默认不支持NTFS文件系统
+			
+		w    查看用户  可以看到详细的内容
+		who
+		last  系统所有用户的登录信息
+		lastlog  查看所有用的最后一次的登录事时间
+	</body>
+</html>

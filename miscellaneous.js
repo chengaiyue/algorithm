@@ -8,8 +8,8 @@
  
 Array.from()   [...]  Array.prototype.slice.call();
 
-let re = new XMLHttpRequest;
-re.open(type, url, acync);
-re.setRequestHeader();
-re.send()
-re.onreadystatechange
+let xhr = new XMLHttpRequest;
+xhr.open(type, url, acync);
+xhr.setRequestHeader();
+xhr.send()
+xhr.onreadystatechange
